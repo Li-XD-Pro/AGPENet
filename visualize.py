@@ -24,7 +24,7 @@ if __name__ == "__main__":
         result = pickle.load(f)
 
     for i in range(len(result)):
-        if result[i]['semantic class'] == 'Scissors':
+        if result[i]['semantic class'] == 'Mug':
             shape_index = i
             shape = result[shape_index]
 
