@@ -5,7 +5,7 @@
 
 Official code for the paper "Context-Aware Task-Oriented Grasp via Cross-Action Affordance Reasoning".
 
-<img src="./assets/intro.png" width="600">
+<img src="./assets/intro.png" width="800">
 
 
 </div>
