@@ -44,7 +44,7 @@ The result will be saved to a ```result.pkl``` file.
 ## 5. Visualization
 To visuaize the result of affordance detection and pose estimation, execute the following script:
 
-python3 visualize.py --result_file <your result pickle file>
+    python3 visualize.py --result_file <your result pickle file>
 
 Example of training data visualization:
 
