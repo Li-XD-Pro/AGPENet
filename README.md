@@ -19,23 +19,23 @@ The code for using LlaMa3 is at [LLaMA-Factory](https://github.com/hiyouga/LLaMA
 
 The dataset for training LlaMa is at [this https](https://drive.google.com/drive/folders/1iWVkn4zApUh8kYp3s1ZqCZeXNSvynE1u?usp=sharing)
 
-
 The code for using BLIP2 is at [blip2-opt-2.7b](https://huggingface.co/Salesforce/blip2-opt-2.7b)
 
 
 ## 1. Installation
-
 
     conda create -n affpose python=3.8
     conda activate affpose
     conda install pip
     pip install -r requirements.txt
 
+
 ## 2. Dataset
-Our dataset is available at [this drive folder](https://drive.google.com/drive/folders/1vDGHs3QZmmF2rGluGlqBIyCp8sPR4Yws?usp=sharing).
+The dataset is available at [this drive folder](https://drive.google.com/drive/folders/1vDGHs3QZmmF2rGluGlqBIyCp8sPR4Yws?usp=sharing).
+
 
 ## 3. Training
-Current framework supports training on a single GPU. Followings are the steps for training our method with configuration file ```config/detectiondiffusion.py```.
+Current framework supports training on a single GPU. Followings are the steps for training AGPENet with configuration file ```config/detectiondiffusion.py```.
 
 * In ```config/detectiondiffusion.py```, change the value of ```data_path``` to your downloaded pickle file.
 * Change other hyperparameters if needed.
@@ -43,15 +43,17 @@ Current framework supports training on a single GPU. Followings are the steps fo
 
     python3 train.py --config ./config/detectiondiffusion.py
 
+
 ## 4. Testing
 Executing the following command for testing of your trained model:
 
-    python3 detect.py --config <your configuration file> --checkpoint <your  trained model checkpoint> --test_data <test data in the 3DAP dataset>
+    python3 detect.py --config <your configuration file> --checkpoint <your  trained model checkpoint> --test_data <test data in the dataset>
 
 Note that we current generate 2000 poses for each affordance-object pair.
 The guidance scale is currently set to 0.2. Feel free to change these hyperparameters according to your preference.
 
 The result will be saved to a ```result.pkl``` file.
+
 
 ## 5. Visualization
 To visuaize the result of affordance detection and pose estimation, execute the following script:
