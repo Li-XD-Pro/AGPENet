@@ -37,9 +37,10 @@ The dataset is available at [this drive folder](https://drive.google.com/drive/f
 ## 3. Training
 Current framework supports training on a single GPU. Followings are the steps for training AGPENet with configuration file ```config/detectiondiffusion.py```.
 
-* In ```config/detectiondiffusion.py```, change the value of ```data_path``` to your downloaded pickle file.
-* Change other hyperparameters if needed.
-* Run the following command to start training:
+- In ```config/detectiondiffusion.py```, change the value of ```data_path``` to your downloaded pickle file.
+- Change other hyperparameters if needed.
+
+Run the following command to start training:
 
     python3 train.py --config ./config/detectiondiffusion.py
 
