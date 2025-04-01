@@ -10,6 +10,18 @@ Official code for the paper "Context-Aware Task-Oriented Grasp via Cross-Action 
 
 </div>
 
+The code in this repository is mainly used to train and test AGPENet, and the method proposed in this paper also includes two parts: task planning and affordance reasoning. Since these two parts belong to zero-shot learning, we provide the links to the LlaMa3 and BLIP2 models used in this paper in the "0. Task Planning and Affordance Reasoning" section, and open source the dataset used for fine-tuning LlaMa3.
+
+
+## 0. Task Planning and Affordance Reasoning
+
+The code for using LlaMa3 is at [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
+
+The dataset for training LlaMa is at [this https](https://drive.google.com/drive/folders/1iWVkn4zApUh8kYp3s1ZqCZeXNSvynE1u?usp=sharing)
+
+
+The code for using BLIP2 is at [blip2-opt-2.7b](https://huggingface.co/Salesforce/blip2-opt-2.7b)
+
 
 ## 1. Installation
 
