@@ -17,7 +17,7 @@ The code in this repository is mainly used to train and test AGPENet, and the me
 
 <div align="center">
 
-<img src="./assets/prompt.png" width="800">
+<img src="./assets/Prompt.png" width="800">
 
 Prompt for LLM reasoning
 
