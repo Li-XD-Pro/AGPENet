@@ -41,7 +41,7 @@ Current framework supports training on a single GPU. Followings are the steps fo
 * Change other hyperparameters if needed.
 * Run the following command to start training:
 
-	python3 train.py --config ./config/detectiondiffusion.py
+    python3 train.py --config ./config/detectiondiffusion.py
 
 ## 4. Testing
 Executing the following command for testing of your trained model:
