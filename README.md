@@ -15,6 +15,14 @@ The code in this repository is mainly used to train and test AGPENet, and the me
 
 ## 0. Task Planning and Affordance Reasoning
 
+<div align="center">
+
+<img src="./assets/prompt.png" width="800">
+
+Prompt for LLM reasoning
+
+</div>
+
 The code for using LlaMa3 is at [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
 
 The dataset for training LlaMa is at [this https](https://drive.google.com/drive/folders/1iWVkn4zApUh8kYp3s1ZqCZeXNSvynE1u?usp=sharing)
