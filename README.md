@@ -15,6 +15,12 @@ The code in this repository is mainly used to train and test AGPENet, and the me
 
 ## 0. Task Planning and Affordance Reasoning
 
+The code for using LlaMa3 is at [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
+
+The dataset for training LlaMa is at [this https](https://drive.google.com/drive/folders/1iWVkn4zApUh8kYp3s1ZqCZeXNSvynE1u?usp=sharing)
+
+The code for using BLIP2 is at [blip2-opt-2.7b](https://huggingface.co/Salesforce/blip2-opt-2.7b)
+
 <div align="center">
 
 <img src="./assets/Prompt.png" width="800">
@@ -22,13 +28,6 @@ The code in this repository is mainly used to train and test AGPENet, and the me
 Prompt for LLM reasoning
 
 </div>
-
-The code for using LlaMa3 is at [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
-
-The dataset for training LlaMa is at [this https](https://drive.google.com/drive/folders/1iWVkn4zApUh8kYp3s1ZqCZeXNSvynE1u?usp=sharing)
-
-The code for using BLIP2 is at [blip2-opt-2.7b](https://huggingface.co/Salesforce/blip2-opt-2.7b)
-
 
 ## 1. Installation
 
